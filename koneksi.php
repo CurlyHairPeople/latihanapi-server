@@ -5,9 +5,10 @@
 $server = "localhost";
 $user = "root";
 $password = "";
-$nama_database = "";
+$nama_database = "latihan_api";
 
 // inisialisasi mysql
+$db = mysqli_connect($server, $user, $password, $nama_database);
 // (DISI)
 
 // pengecekan apakah database tersambung atau tidak

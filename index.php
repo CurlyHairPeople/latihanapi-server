@@ -1,9 +1,11 @@
 <?php
 
 // membutuhkan pemanggilan akses koneksi (mysql)
+require 'koneksi.php';
 // (DISI)
 
 // menjalankan sessions
+session_start();
 // (DISI)
 
 // check apakah session email sudah ada atau belum.
@@ -95,10 +97,10 @@ if (empty($_SESSION['uname'])) {
                     </li>
                     <br>
                     <li class="nav-item">
-                        <p><strong>NAMA KALIAN</strong></p>
+                        <p><strong>Luqman Hakim</strong></p>
                     </li>
                     <li class="nav-item">
-                        <p>NIM KALIAN</p>
+                        <p>6706210067</p>
                     </li>
                     </li>
                 </ul>
